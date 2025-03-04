@@ -9,5 +9,6 @@ int a = 5;
 while (a-- > 0)
 {
     Console.WriteLine(a + "...");
+    System.Threading.Thread.Sleep(1000);
 }
 Console.WriteLine("BOOM");
